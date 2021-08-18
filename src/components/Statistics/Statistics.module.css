@@ -3,7 +3,6 @@
   width: 400px;
   background-color: #ffffff;
   margin-bottom: 15px;
-  border: 1px solid black;
 }
 
 .title {
@@ -17,10 +16,11 @@
 }
 
 .item {
-  border: 1px solid black;
-  width: calc((100% -150px) / 5);
-  margin-left: 30px;
-  margin-top: 30px;
+  box-sizing: border-box;
+  width: calc((100%-10px) / 5);
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .label {
