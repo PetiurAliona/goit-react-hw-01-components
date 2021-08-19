@@ -34,20 +34,3 @@
   background-color: rgb(232, 246, 252);
   padding: 20px;
 }
-
-.item {
-  position: relative;
-  display: inline-flex;
-  flex-direction: column;
-  text-align: center;
-  width: calc((100%) / 3);
-}
-
-.label {
-  font-size: 10px;
-}
-
-.quantity {
-  font-size: 14px;
-  font-weight: bold;
-}

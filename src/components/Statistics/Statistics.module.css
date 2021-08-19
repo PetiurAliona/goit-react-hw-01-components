@@ -14,15 +14,3 @@
   list-style: none;
   text-align: center;
 }
-
-.item {
-  box-sizing: border-box;
-  width: calc((100%-10px) / 5);
-  display: inline-flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.label {
-  margin-bottom: 5px;
-}

@@ -1,0 +1,16 @@
+.item {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: calc((100%) / 3);
+}
+
+.label {
+  font-size: 10px;
+}
+
+.quantity {
+  font-size: 14px;
+  font-weight: bold;
+}
